@@ -1,0 +1,183 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "destiny",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "TellIntent",
+          "samples": [
+            "destiny",
+            "fortune",
+            "tell me my destiny",
+            "tell me my fortune",
+            "give me my destiny",
+            "give me my fortune",
+            "tell me something",
+            "give me something"
+          ],
+          "slots": []
+        },
+        {
+          "name": "AriesIntent",
+          "samples": [
+            "I {Topic}"
+          ],
+          "slots": [
+            {
+              "name": "Topic",
+              "type": "AMAZON.SearchQuery"
+            }
+          ]
+        },
+        {
+          "name": "TaurusIntent",
+          "samples": [
+            "the {Topic}"
+          ],
+          "slots": [
+            {
+              "name": "Topic",
+              "type": "AMAZON.SearchQuery"
+            }
+          ]
+        },
+        {
+          "name": "GeminiIntent",
+          "samples": [
+            "of {Topic}"
+          ],
+          "slots": [
+            {
+              "name": "Topic",
+              "type": "AMAZON.SearchQuery"
+            }
+          ]
+        },
+        {
+          "name": "CancerIntent",
+          "samples": [
+            "and {Topic}"
+          ],
+          "slots": [
+            {
+              "name": "Topic",
+              "type": "AMAZON.SearchQuery"
+            }
+          ]
+        },
+        {
+          "name": "LeoIntent",
+          "samples": [
+            "a {Topic}"
+          ],
+          "slots": [
+            {
+              "name": "Topic",
+              "type": "AMAZON.SearchQuery"
+            }
+          ]
+        },
+        {
+          "name": "VirgoIntent",
+          "samples": [
+            "to {Topic}"
+          ],
+          "slots": [
+            {
+              "name": "Topic",
+              "type": "AMAZON.SearchQuery"
+            }
+          ]
+        },
+        {
+          "name": "LibraIntent",
+          "samples": [
+            "in {Topic}"
+          ],
+          "slots": [
+            {
+              "name": "Topic",
+              "type": "AMAZON.SearchQuery"
+            }
+          ]
+        },
+        {
+          "name": "ScorpioIntent",
+          "samples": [
+            "is {Topic}"
+          ],
+          "slots": [
+            {
+              "name": "Topic",
+              "type": "AMAZON.SearchQuery"
+            }
+          ]
+        },
+        {
+          "name": "SagittariusIntent",
+          "samples": [
+            "you {Topic}"
+          ],
+          "slots": [
+            {
+              "name": "Topic",
+              "type": "AMAZON.SearchQuery"
+            }
+          ]
+        },
+        {
+          "name": "CapricornIntent",
+          "samples": [
+            "that {Topic}"
+          ],
+          "slots": [
+            {
+              "name": "Topic",
+              "type": "AMAZON.SearchQuery"
+            }
+          ]
+        },
+        {
+          "name": "AquariusIntent",
+          "samples": [
+            "it {Topic}"
+          ],
+          "slots": [
+            {
+              "name": "Topic",
+              "type": "AMAZON.SearchQuery"
+            }
+          ]
+        },
+        {
+          "name": "PiscesIntent",
+          "samples": [
+            "I'm {Topic}"
+          ],
+          "slots": [
+            {
+              "name": "Topic",
+              "type": "AMAZON.SearchQuery"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
