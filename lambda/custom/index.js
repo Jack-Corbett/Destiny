@@ -7,8 +7,8 @@ const LaunchRequestHandler = {
   },
   handle(handlerInput) {
     return handlerInput.responseBuilder
-      .speak('Launch')
-      .reprompt('Launch reprompt')
+      .speak(messages.SPACE)
+      .reprompt(messages.SPACE)
       .getResponse();
   },
 };
@@ -20,8 +20,8 @@ const TellHandler = {
     return request.type === 'IntentRequest' && request.intent.name === 'TellIntent';
   },
   handle(handlerInput) {
-    var response = 'You will ';
-    response += DESTINY[Math.floor(Math.random()*20)] + '. ' + messages.STOP;
+    var response = 'Today, you will ';
+    response += FORTUNE[Math.floor(Math.random()*20)] + '. ' + messages.STOP;
     
     return handlerInput.responseBuilder
       .speak(response)
@@ -46,9 +46,9 @@ const SignHandler = {
     console.log(value);
 
     return handlerInput.responseBuilder
-      .speak('sign recorded')
+      .speak(response)
       .withSimpleCard(skillName, response)
-      .reprompt('sign reprompt')
+      .reprompt(response)
       .getResponse();
   }
 };
@@ -61,8 +61,8 @@ const HelpHandler = {
   },
   handle(handlerInput) {
     return handlerInput.responseBuilder
-      .speak('help')
-      .reprompt('help reprompt')
+      .speak(messages.SPACE)
+      .reprompt(messages.SPACE)
       .getResponse();
   },
 };
@@ -75,8 +75,8 @@ const FallbackHandler = {
   },
   handle(handlerInput) {
     return handlerInput.responseBuilder
-      .speak('fallback')
-      .reprompt('fallback reprompt')
+      .speak(messages.SPACE)
+      .reprompt(messages.SPACE)
       .getResponse();
   },
 };
@@ -89,7 +89,7 @@ const ExitHandler = {
   },
   handle(handlerInput) {
     return handlerInput.responseBuilder
-      .speak('exit')
+      .speak(messages.SPACE)
       .getResponse();
   },
 };
@@ -122,8 +122,27 @@ const ErrorHandler = {
 
 const skillName = 'Destiny';
 
-const DESTINY = [
-
+const FORTUNE = [
+  'run into an old friend',
+  'start a new adventure',
+  'stand by your convictions, don\'t be pushed around',
+  'meet someone new, who will make you smile',
+  'finish that job you\'ve been putting off',
+  'give a freind the advice they need',
+  'help someone in need',
+  'see your efforts come to fruition',
+  'get the support you need',
+  'go with the flow, as great things are coming',
+  'find the determination you need',
+  'stop underestimating yourself',
+  'get the second chance you\'ve been waiting for',
+  'find the confidence to make it happen',
+  'have a beautiful day',
+  'prove yourself',
+  'try something new',
+  'catch the eye of someone new',
+  'explore new opportunities',
+  'save someone\'s day with your kindness'
 ];
 
 const messages = {
