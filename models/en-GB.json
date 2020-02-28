@@ -34,9 +34,11 @@
           "slots": []
         },
         {
-          "name": "AriesIntent",
+          "name": "UserIntent",
           "samples": [
-            "I {Topic}"
+            "I {Topic}",
+            "I'm {Topic}",
+            "You {Topic}"
           ],
           "slots": [
             {
@@ -46,129 +48,15 @@
           ]
         },
         {
-          "name": "TaurusIntent",
+          "name": "ObjectIntent",
           "samples": [
-            "the {Topic}"
-          ],
-          "slots": [
-            {
-              "name": "Topic",
-              "type": "AMAZON.SearchQuery"
-            }
-          ]
-        },
-        {
-          "name": "GeminiIntent",
-          "samples": [
-            "of {Topic}"
-          ],
-          "slots": [
-            {
-              "name": "Topic",
-              "type": "AMAZON.SearchQuery"
-            }
-          ]
-        },
-        {
-          "name": "CancerIntent",
-          "samples": [
-            "and {Topic}"
-          ],
-          "slots": [
-            {
-              "name": "Topic",
-              "type": "AMAZON.SearchQuery"
-            }
-          ]
-        },
-        {
-          "name": "LeoIntent",
-          "samples": [
-            "a {Topic}"
-          ],
-          "slots": [
-            {
-              "name": "Topic",
-              "type": "AMAZON.SearchQuery"
-            }
-          ]
-        },
-        {
-          "name": "VirgoIntent",
-          "samples": [
-            "to {Topic}"
-          ],
-          "slots": [
-            {
-              "name": "Topic",
-              "type": "AMAZON.SearchQuery"
-            }
-          ]
-        },
-        {
-          "name": "LibraIntent",
-          "samples": [
-            "in {Topic}"
-          ],
-          "slots": [
-            {
-              "name": "Topic",
-              "type": "AMAZON.SearchQuery"
-            }
-          ]
-        },
-        {
-          "name": "ScorpioIntent",
-          "samples": [
-            "is {Topic}"
-          ],
-          "slots": [
-            {
-              "name": "Topic",
-              "type": "AMAZON.SearchQuery"
-            }
-          ]
-        },
-        {
-          "name": "SagittariusIntent",
-          "samples": [
-            "you {Topic}"
-          ],
-          "slots": [
-            {
-              "name": "Topic",
-              "type": "AMAZON.SearchQuery"
-            }
-          ]
-        },
-        {
-          "name": "CapricornIntent",
-          "samples": [
-            "that {Topic}"
-          ],
-          "slots": [
-            {
-              "name": "Topic",
-              "type": "AMAZON.SearchQuery"
-            }
-          ]
-        },
-        {
-          "name": "AquariusIntent",
-          "samples": [
-            "it {Topic}"
-          ],
-          "slots": [
-            {
-              "name": "Topic",
-              "type": "AMAZON.SearchQuery"
-            }
-          ]
-        },
-        {
-          "name": "PiscesIntent",
-          "samples": [
-            "I'm {Topic}"
+            "The {Topic}",
+            "It {Topic}",
+            "That {Topic}",
+            "A {Topic}",
+            "In {Topic}",
+            "Is {Topic}",
+            "Of {Topic}"
           ],
           "slots": [
             {

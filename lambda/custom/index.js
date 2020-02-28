@@ -31,14 +31,10 @@ const TellHandler = {
 };
 
 // Take the users sign and give the user an answer based on their topic
-const SignHandler = {
+const UserHandler = {
   canHandle(handlerInput) {
     const { request } = handlerInput.requestEnvelope
-    return request.type === 'IntentRequest' && (request.intent.name === 'AriesIntent' || request.intent.name === 'TaurusIntent' || 
-    request.intent.name === 'GeminiIntent' || request.intent.name === 'CancerIntent' || request.intent.name === 'LeoIntent' ||
-    request.intent.name === 'VirgoIntent' || request.intent.name === 'LibraIntent' || request.intent.name === 'ScorpioIntent' ||
-    request.intent.name === 'SagittariusIntent' || request.intent.name === 'CapricornIntent' || request.intent.name === 'AquariusIntent' ||
-    request.intent.name === 'PiscesIntent');
+    return request.type === 'IntentRequest' && (request.intent.name === 'UserIntent' || request.intent.name === 'ObjectIntent');
   },
   handle(handlerInput) {
     var response = messages.SPACE;
@@ -162,7 +158,7 @@ exports.handler = skillBuilder
   .addRequestHandlers(
     LaunchRequestHandler,
     TellHandler,
-    SignHandler,
+    UserHandler,
     HelpHandler,
     ExitHandler,
     FallbackHandler,
