@@ -27,9 +27,7 @@
             "tell me my destiny",
             "tell me my fortune",
             "give me my destiny",
-            "give me my fortune",
-            "tell me something",
-            "give me something"
+            "give me my fortune"
           ],
           "slots": []
         },
@@ -38,7 +36,8 @@
           "samples": [
             "I {Topic}",
             "I'm {Topic}",
-            "you {Topic}"
+            "you {Topic}",
+            "we {Topic}"
           ],
           "slots": [
             {
@@ -54,7 +53,6 @@
             "it {Topic}",
             "that {Topic}",
             "a {Topic}",
-            "in {Topic}",
             "is {Topic}",
             "of {Topic}"
           ],
