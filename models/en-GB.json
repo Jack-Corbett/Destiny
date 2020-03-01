@@ -38,7 +38,7 @@
           "samples": [
             "I {Topic}",
             "I'm {Topic}",
-            "You {Topic}"
+            "you {Topic}"
           ],
           "slots": [
             {
@@ -50,13 +50,13 @@
         {
           "name": "ObjectIntent",
           "samples": [
-            "The {Topic}",
-            "It {Topic}",
-            "That {Topic}",
-            "A {Topic}",
-            "In {Topic}",
-            "Is {Topic}",
-            "Of {Topic}"
+            "the {Topic}",
+            "it {Topic}",
+            "that {Topic}",
+            "a {Topic}",
+            "in {Topic}",
+            "is {Topic}",
+            "of {Topic}"
           ],
           "slots": [
             {
