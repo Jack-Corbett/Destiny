@@ -146,9 +146,9 @@ const messages = {
   HELP: 'You can say tell me my fortune, or you can say exit.',
   HELP_REPROMPT: 'Ask me for your fortune.',
   SPACE: '�. ',
-  FALLBACK: 'Destiny can\'t help you with that. It can tell you your fortune by saying: tell me my destiny.',
-  FALLBACK_REPROMPT: 'To find out your fortune say: tell me my destiny.',
-  ERROR: 'Sorry, I couldn\'t fetch your fortune.',
+  FALLBACK: 'I\'m sorry I didn\'t catch that. Could you repeat your last request?',
+  FALLBACK_REPROMPT: 'Could you repeat your last request?',
+  ERROR: 'Sorry, there was an error.',
   STOP: 'Have a great day! Goodbye.',
 }
 
