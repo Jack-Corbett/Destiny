@@ -9,7 +9,7 @@
         },
         "interactionModel": {
           "en-GB": {
-            "eTag": "2d4a51b51a3829d0d085f07aa8bdba3d"
+            "eTag": "3bae9cd4cef2423e33bc78f4aa7e056a"
           }
         },
         "lambda": [
@@ -22,7 +22,7 @@
             "codeUri": "lambda/custom",
             "functionName": "ask-custom-Destiny-default",
             "handler": "index.handler",
-            "revisionId": "a4eacaab-7a93-46ec-9ece-57db9c8f858d",
+            "revisionId": "1f52a626-deeb-41e0-9051-cecd3dd3f4d1",
             "runtime": "nodejs10.x"
           }
         ]

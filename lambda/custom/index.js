@@ -132,7 +132,7 @@ const FORTUNE = [
   'find the determination you need, there\'s work to be done but you will find the strength to do it',
   'stop underestimating yourself, believe others when they tell you what a fabulous job you do',
   'get the second chance you\'ve been waiting for, make sure you make the most of the opportunity',
-  'find the confidence to make it happen, just go for it, you have nohing to lose',
+  'find the confidence to make it happen, just go for it, you have nothing to lose',
   'have a beautiful day, filled with opportunity, so get out there and make the most of it',
   'prove yourself and reap the rewards, it\'s been a long time coming',                 
   'try something new, it might be out of your comfort zone to begin with but trying new things is the only way to grow',
