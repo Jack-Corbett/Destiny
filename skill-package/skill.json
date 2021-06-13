@@ -1,0 +1,32 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:499295336600:function:ask-custom-Destiny-default"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "category": "ASTROLOGY",
+      "locales": {
+        "en-GB": {
+          "description": "Ask for your fortune.",
+          "examplePhrases": [
+            "Alexa open destiny",
+            "Alexa ask destiny to tell me my fortune",
+            "Alexa ask destiny for my fortune"
+          ],
+          "keywords": [
+            "destiny",
+            "fortune",
+            "horoscope"
+          ],
+          "name": "Destiny",
+          "summary": "Find out your fortune."
+        }
+      }
+    }
+  }
+}
