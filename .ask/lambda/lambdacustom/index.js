@@ -146,7 +146,7 @@ const messages = {
   HELP: 'You can say tell me my fortune or I\'m, followed by your star sign to find out a deeper fortune, or you can say stop.',
   HELP_REPROMPT: 'Ask me for your fortune.',
   // Minimise the message period to ensure the Skill is listening for as long as possible
-  SPACE: '<break time="1ms"/>',
+  SPACE: '�. ',
   FALLBACK: 'I\'m sorry I didn\'t catch that. Could you repeat your last request?',
   FALLBACK_REPROMPT: 'Could you repeat your last request?',
   ERROR: 'Sorry, there was an error.',

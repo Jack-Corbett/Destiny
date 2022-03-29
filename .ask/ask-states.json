@@ -8,7 +8,7 @@
       },
       "code": {
         "default": {
-          "lastDeployHash": "V4gIVLA+MXJEfu6d1lu35kmrpME="
+          "lastDeployHash": "zquyArqGR2bJot/2vXOM43+9yI4="
         }
       },
       "skillInfrastructure": {
@@ -17,8 +17,8 @@
             "default": {
               "lambda": {
                 "arn": "arn:aws:lambda:us-east-1:499295336600:function:ask-custom-Destiny-default",
-                "lastModified": "2022-03-08T20:47:09.000+0000",
-                "revisionId": "603802f1-f7bf-4619-9d2e-9f821f30bb0c"
+                "lastModified": "2022-03-29T19:42:47.000+0000",
+                "revisionId": "512e7347-00ff-4f10-ad9f-69629a0013ba"
               },
               "iamRole": "arn:aws:iam::499295336600:role/ask-lambda-Destiny"
             }
